@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react" //리렌더링 라이브러리
 import StudyComp2 from "./components/StudyComp2"
 import HobbyComp2 from "./components/HobbyComp2"
 

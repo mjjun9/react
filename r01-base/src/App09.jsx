@@ -13,7 +13,7 @@ function WriteForm(props){
         <option value="hobby">취미</option>
       </select>
       <input type="text" name="title"/>
-      <input type="submit" value="추가"/>
+      <input type="submit" value="추가"/> {/* onClick 없어도 됨 */}
     </form>
   </>)
 }
@@ -30,7 +30,7 @@ function App(){
       }
     }}/>
 
-    <pre>{msg}</pre>
+    <pre>{msg}</pre> {/* Preformatted text */}
   </>)
 }
 

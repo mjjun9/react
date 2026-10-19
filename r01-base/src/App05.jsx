@@ -7,7 +7,7 @@ function HobbyComp(props){ //중요!
   const childMsg = '자식의 메세지'
   return(<>
     <li><a href="/test" onClick={event => {
-      event.preventDefault() //Default 요소 막음
+      event.preventDefault() //Default 요소 막음, 주소로 이동 X
       props.onEvent2(childMsg)
     }}>취미</a></li>
   </>)
