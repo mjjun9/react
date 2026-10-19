@@ -1,0 +1,9 @@
+.hobby{
+  color:blue;
+}
+#hobbySub{ /*id로 접근, 하나만*/
+  font-weight: bold; font-size: 1.5em;
+}
+.warnings{
+  color:white;background-color: red;
+}
